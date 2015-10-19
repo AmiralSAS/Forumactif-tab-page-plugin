@@ -1,0 +1,38 @@
+/* Pour créer des conteneurs */
+.tab_container{
+  text-align: center;
+  margin: 12px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+.tab_container img{
+  max-width: 100%;
+}
+.tab_container .tab_menu{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.tab_container .tab_menu .tab_menu_item{
+  background-color: #666;
+  border: 1px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  list-style: outside none none;
+  margin: 1px 4px;
+  padding: 2px 8px;
+}
+.tab_container .tab_menu .tab_menu_item.selected, .tab_container .tab_menu .tab_menu_item.selected:hover{
+  background-color: #eebf25;
+  color: #333;
+}
+.tab_container .tab_menu .tab_menu_item:hover{
+  background-color: #10a2ce;
+  color: #333;
+}
+.tab_container .tab_page{
+  border-top: 1px solid #eee;
+  padding: 8px 8px;
+  text-align: left;
+}
